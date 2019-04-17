@@ -8,7 +8,6 @@ LABEL "repository"="https://github.com/Niraj-Fonseka/github-action"
 LABEL "maintainer"="Niraj Fonseka"
 
 RUN apt-get update \
-  && apt-get update \
   && apt-get install git -y --no-install-recommends \
   && rm -rf /var/lib/apt/lists/*
 
