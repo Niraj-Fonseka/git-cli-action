@@ -5,6 +5,6 @@ workflow "New workflow" {
 
 action "new-action" {
   uses = "./github-action/"
-  args = "--version"
+  args = "branch"
   secrets = ["GITHUB_TOKEN"]
 }
