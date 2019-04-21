@@ -1,8 +1,4 @@
 #!/bin/bash
 
-# ARGS=$*
-# git ${ARGS}s
-
-git pull
-
-ls 
+ARGS=$*
+git ${ARGS}
